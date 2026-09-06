@@ -1,5 +1,5 @@
-                    250S2101-FRONT END DEVELOP WORKS FOR WEB APPLICATIONS
-                   ========================================================
+FRONT END FRAMEWORKS FOR WEB APPLICATIONS
+==========================================
 
 #Date of the Session:- 
 
