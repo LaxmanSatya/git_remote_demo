@@ -5,7 +5,7 @@ FRONT END FRAMEWORKS FOR WEB APPLICATIONS
 
 #Time of The Session:-
 
-LAB-1 :- Create Git Repository and perform Git Operations (Push, Fetch, Merge, Pull, Reset, Revert, Clone and Fork)
+###LAB-1 :- Create Git Repository and perform Git Operations (Push, Fetch, Merge, Pull, Reset, Revert, Clone and Fork)
 
 #Prerequisites:-
 
