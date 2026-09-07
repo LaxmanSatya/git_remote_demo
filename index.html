@@ -1,11 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiment1(git-remote-repo-demo)</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Experiment1(git-remote-repo-demo)</title>
+        <style>
+              /* Center everything on the page */
+        body {
+            background-color: lightgreen;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Takes full height of the browser screen */
+            font-family: sans-serif;
+        };
+        * Style the form into a small floating card */
+        #form {
+            background-color: lightblue;
+            width: 320px; /* Restricts the horizontal width */
+            padding: 20px;
+            border-radius: 8px; /* Smooths out the corners */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Creates the "floating" shadow effect */
+        }
+
+        /* Clean up fieldset borders */
+        fieldset {
+            border: none;
+            margin: 0;
+            padding: 0;
+        }
+        /* Make inputs stack neatly inside the small width */
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: 5px;
+            padding: 6px;
+        }
+
+        button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        </style>
+    </head>
+    <body bgcolor="lightgreen">
+        <div align="center">
+        <form id="form" name = "form" action="POST">
+            <fieldset>
+                <label for="username">UserName:</label>
+                <input type="text" id="username" name="username" required>
+                <br/><br/>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br/><br/>
+                <button id = "submit" type="checksumit" onclick="action=alert('Logined')">Login</button>
+            </fieldset>
+        </form>
+        </table>
+        </div>
+    </body>
+    </html>
